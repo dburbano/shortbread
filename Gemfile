@@ -58,3 +58,7 @@ end
 
 # For Heroku features
 gem 'rails_12factor', group: :production
+
+# Fix problem: ExecJS::RuntimeUnavailable: Could not find a JavaScript runtime.
+gem 'execjs'
+gem 'therubyracer'
