@@ -2,7 +2,7 @@ class Link < ActiveRecord::Base
 
 require 'pry'
 
-URL_BASE = "dabs/"
+URL_BASE = "dabs.short/"
 MOST_VISITED_LIMIT = 100
 
 validates_presence_of :original_url
